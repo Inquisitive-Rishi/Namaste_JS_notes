@@ -1,0 +1,41 @@
+Some big questions:
+
+1. Do you know how JS works?
+2. Is JS synchronous or asynchronous?
+3. Is JS single threaded or multi threaded?
+
+Everthing in JS happens inside an 'Execution Context'
+
+EC is like a big box where all JS code gets executed.
+
+How this EC actually looks like?
+
+EC has two components:
+1. Memory component aka Variable Environment.
+2. Code component aka Thread of Execution.
+
+
+1. VE / MC:
+
+This is the place where all the variables and functions are stored as a key:value pair.
+eg: x = 10; as a:10
+    function x() {...} func : {...}
+
+    something like this.
+
+2. CC / TOE:
+
+This is the place where code gets executed one line at a time.
+
+So here's an important concept:
+
+- JS is a synchronous single threaded language.
+
+What is synchronous single threaded?
+
+- It means that JS can execute code one command at a time and in a specific order.
+
+- This means JS goes to the next line once the current line has finished executing.
+
+
+
